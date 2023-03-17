@@ -433,6 +433,7 @@ type Config struct {
 	NotifyFull bool
 
 	MilanoBlock uint64
+	InitiateBlock uint64
 
 	Log log.Logger `toml:"-"`
 }
